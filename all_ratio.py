@@ -15,7 +15,7 @@ v_P = 1  # 总收益 v(P) = 1
 def B(D_subset, miner1_value=1.0, miner2_value=1.0):
     """收益函数 B(D')，矿工1 和 矿工2 的收益均可变"""
     value = 0
-    if 1 in D_subset:
+    if 1 in D_subset :
         value += miner1_value
     if 2 in D_subset:
         value += miner2_value
